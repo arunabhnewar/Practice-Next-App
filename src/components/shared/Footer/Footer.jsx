@@ -34,7 +34,7 @@ const Footer = () => {
           alt='Youtube Account'
         />
       </div>
-      <div>©2023 Arunabh. All rights reserved.</div>
+      <div>©2023 devwithloppers. All rights reserved.</div>
     </div>
   );
 };
