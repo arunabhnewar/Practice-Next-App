@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Button from "@/components/shared/Button/Button";
 import Image from "next/image";
 import styles from "./page.module.css";
@@ -19,7 +18,7 @@ export default function Home() {
         <Button url='/portfolio' text='See Our Works' />
       </div>
       <div className={styles.item}>
-        <Image src={hero} alt='' className={styles.img} />
+        <Image src={hero} alt='Dev with lopers' className={styles.img} />
       </div>
     </div>
   );

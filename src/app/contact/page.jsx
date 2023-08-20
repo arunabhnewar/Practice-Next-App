@@ -2,7 +2,7 @@
 import Loading from "./loading";
 import styles from "./page.module.css";
 
-const page = () => {
+const Contact = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Let's Keep in Touch</h1>
@@ -11,4 +11,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Contact;
