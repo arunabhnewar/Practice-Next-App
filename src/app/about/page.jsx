@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import Button from "@/components/shared/Button/Button";
 import Image from "next/image";
 import styles from "./page.module.css";
@@ -34,11 +33,11 @@ const About = () => {
             <br />
             Our mission is to breathe life into ideas, transform visions into
             pixel-perfect realities, and elevate user experiences to
-            unprecedented heights. As we embark on this exciting journey, we're
+            unprecedented heights. As we embark on this exciting journey, we are
             committed to pushing boundaries, embracing challenges, and
             collaboratively shaping the future of the web. Join us in exploring
-            the limitless possibilities of code and design – together, we're
-            building more than websites; we're shaping the digital world one
+            the limitless possibilities of code and design – together, we are
+            building more than websites; we are shaping the digital world one
             pixel at a time.
           </p>
         </div>
