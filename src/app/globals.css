@@ -42,11 +42,11 @@ a {
 }
 
 .active-link {
-  color: red;
   font-weight: 700;
+  color: #295740;
 }
 
 .pending-link {
-  color: blue;
+  color: #53c38b;
   font-weight: 500;
 }

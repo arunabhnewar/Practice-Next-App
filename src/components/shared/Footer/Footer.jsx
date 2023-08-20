@@ -7,29 +7,29 @@ const Footer = () => {
       <div className={styles.social}>
         <Image
           src='/assets/1.png'
-          width={15}
-          height={15}
+          width={20}
+          height={20}
           className={styles.icon}
           alt='Facebook Account'
         />
         <Image
           src='/assets/2.png'
-          width={15}
-          height={15}
+          width={20}
+          height={20}
           className={styles.icon}
           alt='Instagram Account'
         />
         <Image
           src='/assets/3.png'
-          width={15}
-          height={15}
+          width={20}
+          height={20}
           className={styles.icon}
           alt='Twitter Account'
         />
         <Image
           src='/assets/4.png'
-          width={15}
-          height={15}
+          width={20}
+          height={20}
           className={styles.icon}
           alt='Youtube Account'
         />
