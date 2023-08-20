@@ -5,6 +5,7 @@ import { useContext } from "react";
 import styles from "./DarkThemeToggle.module.css";
 
 const DarkThemeToggle = () => {
+  // use context
   const { toggle, mode } = useContext(ThemeContext);
 
   return (

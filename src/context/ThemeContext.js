@@ -9,8 +9,7 @@ export const ThemeProvider = ({ children }) => {
 
     const toggle = (e) => {
         setMode((prev) => (prev === "dark" ? "light" : "dark"))
-    }
-
+    };
 
     return (
         <ThemeContext.Provider value={{ toggle, mode }}>
