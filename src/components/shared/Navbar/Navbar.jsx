@@ -1,5 +1,6 @@
 "use client";
 
+import DarkThemeToggle from "@/components/DarkThemeToggle/DarkThemeToggle";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "./navbar.module.css";
@@ -57,6 +58,8 @@ const Navbar = () => {
           }>
           Dashboard
         </Link>
+
+        <DarkThemeToggle />
 
         <button
           onClick={e => {

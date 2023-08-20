@@ -2,21 +2,21 @@ export const items = {
     applications: [
         {
             id: 1,
-            title: "Creative Portfolio",
+            title: "Tracking Application",
             desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image: "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg",
+            image: "https://images.pexels.com/photos/38271/ipad-map-tablet-internet-38271.jpeg?auto=compress&cs=tinysrgb&w=600",
         },
         {
             id: 2,
-            title: "Minimal Single Product",
+            title: "Mobile Application",
             desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image: "https://images.pexels.com/photos/2103127/pexels-photo-2103127.jpeg",
+            image: "https://images.pexels.com/photos/243694/pexels-photo-243694.jpeg?auto=compress&cs=tinysrgb&w=600",
         },
         {
             id: 3,
-            title: "Strong Together Charity",
+            title: "Social Media Application",
             desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image: "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg",
+            image: "https://images.pexels.com/photos/4549408/pexels-photo-4549408.jpeg?auto=compress&cs=tinysrgb&w=600",
         }
     ],
     illustrations: [
@@ -36,7 +36,7 @@ export const items = {
             id: 3,
             title: "Strong Together Charity",
             desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-            image: "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg",
+            image: "https://images.pexels.com/photos/2236382/pexels-photo-2236382.jpeg?auto=compress&cs=tinysrgb&w=600",
         }
     ],
     websites: [

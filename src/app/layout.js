@@ -2,6 +2,7 @@
 
 import Footer from '@/components/shared/Footer/Footer';
 import Navbar from '@/components/shared/Navbar/Navbar';
+import { ThemeProvider } from '@/context/ThemeContext';
 import { AppProgressBar as ProgressBar } from 'next-nprogress-bar';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -18,17 +19,20 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
       <body className={inter.className} suppressHydrationWarning={true} >
-        <div className="container">
-          <Navbar />
-          {children}
-          <ProgressBar
-            height="4px"
-            color="#53c38b"
-            options={{ showSpinner: false }}
-            shallowRouting
-          />
-          <Footer />
-        </div>
+        <ThemeProvider>
+
+          <div className="container">
+            <Navbar />
+            {children}
+            <ProgressBar
+              height="4px"
+              color="#53c38b"
+              options={{ showSpinner: false }}
+              shallowRouting
+            />
+            <Footer />
+          </div>
+        </ThemeProvider>
       </body>
 
     </html>
