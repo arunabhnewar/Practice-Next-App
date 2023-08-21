@@ -1,10 +1,9 @@
 // "use client";
 
+import Loader from "@/components/Loader/Loader";
 import Footer from "@/components/shared/Footer/Footer";
 import Navbar from "@/components/shared/Navbar/Navbar";
 import Providers from "@/context/providers";
-
-import Loader from "@/components/Loader/Loader";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
