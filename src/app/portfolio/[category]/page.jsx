@@ -14,6 +14,10 @@ const getData = cat => {
   return notFound();
 };
 
+export const metadata = {
+  title: "My Next App || Portfolio",
+};
+
 const Category = ({ params }) => {
   const data = getData(params.category);
   return (

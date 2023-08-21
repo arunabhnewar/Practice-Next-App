@@ -1,6 +1,10 @@
 import Link from "next/link";
 import styles from "./page.module.css";
 
+export const metadata = {
+  title: "My Next App || Portfolio",
+};
+
 const Portfolio = () => {
   return (
     <div className={styles.container}>

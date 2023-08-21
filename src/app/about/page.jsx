@@ -2,6 +2,10 @@ import Button from "@/components/shared/Button/Button";
 import Image from "next/image";
 import styles from "./page.module.css";
 
+export const metadata = {
+  title: "My Next App || About",
+};
+
 const About = () => {
   return (
     <div className={styles.container}>

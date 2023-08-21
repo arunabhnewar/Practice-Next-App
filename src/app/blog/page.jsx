@@ -4,9 +4,15 @@ import styles from "./page.module.css";
 import blogImg from "/public/assets/blog.png";
 
 const blogData = async () => {
-  const response = await fetch("https://dummyjson.com/posts");
+  const response = await fetch("https://dummyjson.com/posts", {
+    next: { revalidate: 3600 },
+  });
   const data = await response.json();
   return data.posts;
+};
+
+export const metadata = {
+  title: "My Next App || Blog",
 };
 
 const Blog = async () => {
